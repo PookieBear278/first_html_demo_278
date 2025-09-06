@@ -23,11 +23,11 @@
     </head>
     
     <body>
-        <!-- start header-->
-        <div id="pageHeader">
-            <div id="title"> Machine Learning Workshop</div>
-            <!--navigation-->
-            <div id="navigation">
+        <!--Using role attribute to provide semantic meaning to non-semantic elements-->
+        <!--start header-->
+        <div role="banner">
+            <div role="heading" aria-level="1"> Machine Learning Workshop</div>
+            <div role="navigation">
                 <a href="#reg">Register</a>
                 <a href="#about">About</a>
                 <a href="#teachers">Instructors</a>
@@ -36,8 +36,6 @@
             <!--end navigation bar-->
         </div>
         <!--end of header-->
-        <!--id and classes don't add any semantic meaning to html elements especially for screen reader-->
-        <!--Creates extra work with css and it wont create an AOM with the browser-->
         <script src="js/switch.js" defer></script>
     </body>
 </html>
